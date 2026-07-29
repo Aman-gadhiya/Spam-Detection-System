@@ -1,0 +1,71 @@
+Timestamp,Message,Prediction,Confidence,Risk Level
+2026-07-29 20:25:33,"Winning an unexpected prize sounds great, in theory. However, being notified of winning a contest you didn’t enter is a dead giveaway of a phishing text. If you’re unsure whether an offer is authentic, contact the business directly to verify.
+
+",Spam,65.81,Medium
+2026-07-29 20:26:03,"प्रिय ग्राहक,
+
+अपनी भाषा में Google Gemini से पूछें और तुरंत जवाब पाएँ।
+
+Google Gemini के 18 महीने के Pro plan के साथ इसे मुफ़्त में उपयोग करें
+
+❌ कोई extra charges नहीं
+❌ कोई auto-pay नहीं
+
+📄 Jio T&C लागू",Safe,99.26,Very High
+2026-07-29 20:26:22,"6825 is your login OTP. It will expire in next 5 minutes. DO NOT share your OTP with anyone. 
+Powered by GoKwik! 
+@bonkerscorner-store.myshopify.com #6825",Safe,91.56,High
+2026-07-29 20:26:35,"Dear Customer, Hurry! 300 reward points are ready to be earned! Share your YONO referral code and unlock rewards when family & friends register on YONO. -SBI",Safe,57.71,Low
+2026-07-29 20:26:41,"Dear Customer, Hurry! 300 reward points are ready to be earned! Share your YONO referral code and unlock rewards when family & friends register on YONO. -SBI",Safe,57.71,Low
+2026-07-29 20:44:25,"Dear Customer, Hurry! 300 reward points are ready to be earned! Share your YONO referral code and unlock rewards when family & friends register on YONO. -SBI",Safe,57.71,Low
+2026-07-29 20:46:39,"Dear Customer, Hurry! 300 reward points are ready to be earned! Share your YONO referral code and unlock rewards when family & friends register on YONO. -SBI",Safe,57.71,Low
+2026-07-29 20:53:05,".badge-good {
+    background: #DCFCE7;
+    color: #000000 !important;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.badge-bad {
+    background: #FEE2E2;
+    color: #000000 !important;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-weight: 700;
+    text-align: center;
+}",Safe,59.29,Low
+2026-07-29 20:59:27,http://localhost:8504/,Safe,98.39,Very High
+2026-07-29 21:04:57,".section-card {
+    background: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 0;
+}",Safe,98.13,Very High
+2026-07-29 21:06:20,".section-card {
+    background: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 0;
+}",Safe,98.13,Very High
+2026-07-29 21:07:18,".section-card {
+    background: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 0;
+}",Safe,98.13,Very High
+2026-07-29 21:11:24,".section-card {
+    background: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 0;
+}",Safe,98.13,Very High

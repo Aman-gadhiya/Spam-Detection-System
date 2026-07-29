@@ -1,0 +1,23 @@
+{
+    "model_name":"Logistic Regression",
+
+    "version":"1.0.0",
+
+    "accuracy":"98.64%",
+
+    "precision":"98.31%",
+
+    "recall":"97.88%",
+
+    "f1_score":"98.09%",
+
+    "dataset":"SMS Spam Collection",
+
+    "samples":"5572",
+
+    "features":"TF-IDF",
+
+    "language":"English",
+
+    "developer":"Your Name"
+}
