@@ -1,4 +1,7 @@
 streamlit
 nltk
 scikit-learn
+pandas
+numpy
 plotly
+pickle-mixin
