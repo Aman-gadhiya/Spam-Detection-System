@@ -10,17 +10,16 @@ import pickle
 class SpamPredictor:
 
     def __init__(self, pipeline_path):
-        base_dir = Path(__file__).resolve().parent
-        self.pipeline_path = base_dir / pipeline_path
         self.pipeline = None
+        self.pipeline_path = pipeline_path
         self.load_pipeline()
 
     # ------------------------------------------------------
     # LOAD MODEL
     # ------------------------------------------------------
     def load_pipeline(self):
-        if not self.pipeline_path.exists():
-            raise FileNotFoundError(f"Model not found: {self.pipeline_path}")
+        if not os.path.exists(self.pipeline_path):
+            raise FileNotFoundError(f"{self.pipeline_path} not found.")
 
         with open(self.pipeline_path, "rb") as file:
             self.pipeline = pickle.load(file)
