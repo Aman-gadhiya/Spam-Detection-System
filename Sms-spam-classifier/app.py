@@ -211,8 +211,10 @@ metadata = {}
 model_loaded = False
 model_error = None
 
+MODEL_PATH = Path(__file__).parent / "spam_detector_pipeline.pkl"
+
 try:
-    predictor = SpamPredictor("spam_detector_pipeline.pkl")
+    predictor = SpamPredictor(str(MODEL_PATH))
     metadata = load_metadata()
     model_loaded = True
 except Exception as e:
