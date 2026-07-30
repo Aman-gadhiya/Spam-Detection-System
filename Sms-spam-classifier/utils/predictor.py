@@ -5,6 +5,7 @@
 
 import os
 import pickle
+from pathlib import Path
 
 
 class SpamPredictor:
@@ -18,10 +19,16 @@ class SpamPredictor:
     # LOAD MODEL
     # ------------------------------------------------------
     def load_pipeline(self):
-        if not os.path.exists(self.pipeline_path):
-            raise FileNotFoundError(f"{self.pipeline_path} not found.")
+        # Get the folder where this Python file is located
+        base_dir = Path(__file__).resolve().parent
 
-        with open(self.pipeline_path, "rb") as file:
+        # Create the full path to the model
+        model_path = base_dir / self.pipeline_path
+
+        if not model_path.exists():
+            raise FileNotFoundError(f"Model not found at: {model_path}")
+
+        with open(model_path, "rb") as file:
             self.pipeline = pickle.load(file)
 
     # ------------------------------------------------------
