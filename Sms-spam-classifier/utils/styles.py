@@ -22,6 +22,22 @@ body,
     max-width: 1250px;
 }
 
+h1,h2,h3,h4,h5,h6{
+    color:#111827 !important;
+}
+
+p{
+    color:#334155 !important;
+}
+
+[data-testid="stMarkdownContainer"]{
+    color:#1E293B !important;
+}
+
+[data-testid="stCaptionContainer"]{
+    color:#475569 !important;
+}
+
 /* ============================================================
    HERO
 ============================================================ */
@@ -136,7 +152,7 @@ body,
     border-radius: 12px;
     padding: 0 20px;
     font-weight: 600;
-    color: #475569;
+    color:#334155 !important;
 }
 
 .stTabs [aria-selected="true"] {
@@ -227,6 +243,23 @@ textarea {
 .streamlit-expanderHeader {
     font-size: 16px;
     font-weight: 600;
+    color:#111827 !important;
+}
+
+[data-testid="stMetricLabel"]{
+    color:#334155 !important;
+}
+
+[data-testid="stMetricValue"]{
+    color:#111827 !important;
+}
+
+[data-testid="stDataFrame"]{
+    color:#111827;
+}
+
+textarea{
+    color:#111827 !important;
 }
 
 /* ============================================================
