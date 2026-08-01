@@ -259,7 +259,7 @@ textarea {
 }
 
 textarea{
-    color:#111827 !important;
+    color:#FFFFFF !important;
 }
 
 /* ============================================================
