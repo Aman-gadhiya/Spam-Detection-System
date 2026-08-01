@@ -81,6 +81,7 @@ html, body, [data-testid="stAppViewContainer"] {
 ============================================================ */
 .section-card {
     background: #fff;
+    color: #000000;
     margin-bottom: 20px;
     border-bottom: 1px solid #000000;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
