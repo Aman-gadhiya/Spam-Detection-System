@@ -9,11 +9,13 @@ def load_css():
 /* ============================================================
    GLOBAL
 ============================================================ */
-html, body, [data-testid="stAppViewContainer"] {
-    background: radial-gradient(circle at top left, #EEF3FC 0%, #F5F7FB 40%, #F5F7FB 100%);
-    font-family: 'Segoe UI', 'Inter', sans-serif;
+html,
+body,
+[data-testid="stAppViewContainer"]{
+    background: radial-gradient(circle at top left,#EEF3FC 0%,#F5F7FB 40%,#F5F7FB 100%);
+    font-family:'Segoe UI','Inter',sans-serif;
+    color:#1E293B;
 }
-
 .block-container {
     padding-top: 1.5rem;
     padding-bottom: 3rem;
